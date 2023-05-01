@@ -1,0 +1,83 @@
+.c-root {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    z-index: 1;
+}
+
+.nav-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    white-space: nowrap;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    background-color: #333;
+}
+
+.nav-list li {
+    display: inline-block;
+    color: white;
+    padding: 12px;
+    text-decoration: none;
+}
+
+.nav-list a {
+    color: white;
+    text-decoration: none;
+    padding: 12px;
+    margin: 0 -12px;
+}
+
+.nav-list .nav-left {
+    text-align: left;
+    min-width: 200px;
+}
+
+.nav-list .nav-center {
+    text-align: center;
+    width: 100%;
+    overflow: hidden;
+    padding-left: -200px;
+}
+
+.nav-list .nav-right {
+    text-align: right;
+}
+
+.nav-list li.active {
+    background-color: #04AA6D;
+    cursor: pointer;
+}
+
+.nav-list li.active:hover {
+    background-color: #3e8e41;
+}
+
+.nav-list .nav-logo {
+    background-image: url("/images/logo-nps.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 35px;
+    display: inline-block;
+    padding: 0;
+    margin: -16px 8px -16px 0px;
+}
+
+@media screen and (max-width: 600px) {
+    .nav-list .nav-left {
+        display: none;
+    }
+
+    .nav-list .nav-center {
+        text-align: left;
+        margin-right: auto;
+    }
+}

@@ -1,0 +1,23 @@
+.disclosure-details {
+    border-radius: 15px;
+    padding: 12px;
+    background-color: #95d0d3bf;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.disclosure-summary {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-variant: small-caps;
+    padding: 12px;
+    margin: -18px 0px 0px -18px;
+    border-radius: 15px;
+    background-color: #c2f5f0;
+}
+
+.disclosure-summary:hover {
+    background-color: #81f7eb;
+    cursor: pointer;
+}

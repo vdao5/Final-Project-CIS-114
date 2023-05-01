@@ -1,0 +1,45 @@
+.disclosure-content h2 {
+    color: black;
+    font-size: 11px;
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+
+.disclosure-content h3 {
+    color: black;
+    font-size: 18px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.disclosure-content h4 {
+    color: #666666;
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-top: 0;
+}
+
+.disclosure-content img {
+    max-width: 100%;
+    max-height: 600px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.disclosure-content .btn {
+    background-color: #04AA6D;
+    color: white;
+    margin: 8px 0px;
+    padding: 8px;
+    text-decoration: none;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+    display: block;
+}
+
+.disclosure-content .btn:hover,
+.btn:focus {
+    background-color: #3e8e41;
+}

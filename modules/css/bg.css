@@ -1,0 +1,9 @@
+html {
+    overflow-y: scroll;
+    background: url("/images/bg.webp") no-repeat center center fixed;
+    background-size: cover;
+}
+
+body {
+    margin: 0;
+}

@@ -1,0 +1,44 @@
+.slideshow {
+    position: relative;
+    background-color: #000;
+}
+
+.slide {
+    display: block;
+    border-style: none;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.indicators-bar {
+    position: relative;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.indicator {
+    height: 13px;
+    width: 13px;
+    padding: 0;
+    margin-left: 2px;
+    margin-right: 2px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    box-sizing: border-box;
+    display: inline-block;
+}
+
+.indicator.active {
+    background-color: #ccc;
+}
+
+.caption {
+    color: #ccc;
+    text-align: center;
+    margin: 8px;
+    font: caption;
+}
